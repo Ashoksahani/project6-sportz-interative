@@ -41,7 +41,7 @@ aws.config.update(
         var uploadParams = {
             ACL: "public-read",
             Bucket: "classroom-training-bucket",
-            Key: "Rishabh/" + file.originalname,
+            Key: "ashok/" + file.originalname,
             Body: file.buffer
         }
         console.log(uploadFile)
